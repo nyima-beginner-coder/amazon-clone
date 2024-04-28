@@ -1,0 +1,244 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+/*box1*/
+
+.nav-logo {
+    height:50px;
+    width:113px;
+    display: flex;
+    align-items: left;
+    background-image: url(amazon-logo2.jpg);
+    background-size:cover;
+
+}
+.border {
+    border:2px solid transparent;
+}
+.border:hover {
+    border:2px solid rgba(255, 255, 255, 0.616);
+}
+/*box2*/
+.address-1st {
+    color:#cccccc;
+    font-size: 0.65rem;
+    margin-left:15px;
+}
+.address-2nd {
+    color:#ffffff;
+    font-size: 1rem;
+    margin-left:7px;
+}
+.address-icon {
+    display:flex;
+    align-items:center;
+}
+/*box3*/
+.nav-search {
+    margin-left:10px;
+    display:flex;
+    justify-content:space-evenly;
+    width:805px;
+    height:40px;
+}
+.nav-search:hover {
+    border: 3px solid rgba(255, 166, 0, 0.95);
+}
+
+.search-select {
+    background-color:#e6e6e6;
+    text-align:center;
+    width:45px;
+    padding-left:5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input {
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+
+.search-icon {
+    background-color: rgb(224, 170, 99);
+    width:45px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    color:#0f1111;
+}
+/*box4*/
+.language {
+    width:55px;
+    height:33px;
+    background-color:#0f1111;
+    border:none;
+    font-size:14px;
+    color:#ffffff;
+    display:flex;
+    align-items:center;
+}
+.flag {
+    width:21px;
+    height:16px;
+    background-image: url(flag_of_america.png);
+    background-size: cover;
+    margin-right: 3px;
+}
+/*box5*/
+.nav-1st {
+    font-size:12px;
+}
+.nav-2nd {
+    font-size:14px;
+    font-weight:700;
+}
+/* box6 */
+.nav-cart {
+    display: flex;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+/** panel **/
+.panel {
+    height:39px;
+    width:100%;
+    color:#ffffff;
+    background-color:#222f3d;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size: 14px;
+}
+.panel-opt p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-opt {
+    width:1080px;
+}
+.panel-deals {
+    font-weight:700;
+}
+.panel-all {
+    font-size:16px;
+    font-weight:700;
+}
+
+/** heor-section **/
+.hero-section {
+    background-image: url(hero_image.jpg);
+    height:400px;
+    background-size:cover;
+}
+/** shop section**/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box {
+    height:350px;
+    width:23%;
+    padding:20px 0px 15px 0px;
+    margin-top:15px;
+    background-color: #ffffff;
+
+}
+.box-content {
+    /* border: 2px solid red; */
+    height:100%;
+    width:88%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.box-content p {
+    color:#007185;
+}
+.box-img {
+    height:70%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/** footer **/
+footer {
+    margin-top: 15px;
+}
+.footer-panel1 {
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+.footer-panel2 {
+    background-color:#222f3d;
+    color:white;
+    height:400px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top:30px;
+}
+ul div {
+    font-size:16px;
+    font-weight:700;
+    margin:6px 0px 14px 0px;
+}
+ul a {
+    display:block;
+    margin:10px;
+    color:#dddddd;
+    font-size:14px;
+}
+.footer-panel3 {
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 70px;
+}
+.logo {
+    height:50px;
+    width:113px;
+    background-image: url(logo-footer.jpg);
+    background-size:cover;
+}
+.footer-panel4 {
+    background-color: #010c17ef;
+    color:white;
+    height:76px;
+}
+.pages {
+    font-size: 0.85rem;
+    text-align:center;
+    padding-top:20px;
+}
+.copyright {
+    font-size: 0.85rem;
+    text-align:center;
+}
